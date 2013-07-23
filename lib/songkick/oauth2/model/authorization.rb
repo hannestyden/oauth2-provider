@@ -19,9 +19,9 @@ module Songkick
         
       # attr_accessible nil
         
-        class << self
-          private :create, :new
-        end
+      # class << self
+      #   private :create, :new
+      # end
         
         extend Hashing
         hashes_attributes :access_token, :refresh_token
